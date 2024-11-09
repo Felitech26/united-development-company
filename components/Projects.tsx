@@ -2,8 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import {com, com4, project14, project2, project3, project4, project5, project8 } from '@/public/assets'
-import {Navigation, Pagination, Scrollbar } from 'swiper/modules';
+import {com, project3, project4, project5, project8 } from '@/public/assets'
+import {Pagination, Scrollbar } from 'swiper/modules';
 
 // framer motion
 import { AnimatePresence, motion }  from 'framer-motion';
@@ -133,19 +133,7 @@ const Projects = () => {
 
   
 
-  <SwiperSlide>
-    <div className='relative overflow-hidden flex items-center justify-center group'>
-    <div className='flex items-center justify-center relative overflow-hidden'><Image src={com4} width={500} height={300} alt='' />
-    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
-      <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10
-      group-hover:xl:-translate-y-20 transition-all duration-300'>
-        <div className='flex items-center text-white mb-5 sm:mb-10 md:mb-12 text-[12px] font-bodyFont font-medium md:text-2xl'>
-          Commercial Retail Space
-        </div>
-       </div>
-    </div>
-    </div>
-  </SwiperSlide>
+ 
 
   <SwiperSlide>
     <div className='relative overflow-hidden flex items-center justify-center group'>

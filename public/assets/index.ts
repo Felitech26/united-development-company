@@ -20,7 +20,6 @@ import second from "./images/second.png"
 import third from "./images/third.png"
 import decor from "./images/decor.png"
 import com from "./images/com.png"
-import com4 from "./images/com4.png"
 import whatsapp from "./images/whatsapp.svg"
 
 
@@ -47,6 +46,5 @@ export {
   third,
   decor,
   com,
-  com4,
   whatsapp
 }
