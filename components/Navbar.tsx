@@ -95,9 +95,10 @@ const Navbar = () => {
          animate="show"
          exit="hidden"
         className='md:inline-flex'>
-        <a href="mailto:Uniteddevelopment83@gmail.com"><button
-         className="px-4 py-2 rounded-xl text-secondary font-semibold text-[13px] border border-spacing-6
-         hover:bg-gray-300 duration-300">Get A Quote</button></a>
+        <a href="mailto:Uniteddevelopment83@gmail.com"
+        className="px-4 py-2 bg-secondary/95 text-white font-semibold text-[13px] hover:text-secondary
+        hover:bg-gray-300 duration-300">
+         Get A Quote</a>
         </motion.div> 
          
       </div>

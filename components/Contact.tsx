@@ -45,8 +45,8 @@ const Contacts = () => {
 </form>
 
 <a href="mailto:Uniteddevelopment83@gmail.com"><button
-         className="mt-6 px-5 py-3 bg-secondary/95 text-white font-semibold rounded-xl
-         hover:bg-primary duration-300">Send Message</button></a>
+         className="mt-10 px-5 py-3 bg-secondary/95 text-white font-semibold 
+        hover:text-secondary hover:bg-gray-300 duration-300">Send Message</button></a>
          
       </div>
      

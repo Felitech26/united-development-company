@@ -73,13 +73,17 @@ const Projects = () => {
     <div className='relative overflow-hidden flex items-center justify-center group'>
     <div className='flex items-center justify-center relative overflow-hidden'>
       <Image src={project4} width={500} height={3000} alt='' />
-    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
-      <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10
-      group-hover:xl:-translate-y-20 transition-all duration-300'>
-        <div className='flex items-center text-white ml-3 mb-5 sm:mb-10 md:mb-12 lg:ml-1 text-[12px] font-bodyFont font-semibold md:font-medium md:text-2xl'>
+    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-70
+    group-hover:bottom-0 translate-y-full group-hover:-translate-y-0
+     transition-all duration-300'>
+         <div className='absolute w-full h-full flex justify-center items-center'>
+        <h1 className='text-white
+          text-[15px] font-bodyFont font-semibold md:text-[17px]'>
          Executive Two Bedroom Duplex
-        </div>
+        </h1>
        </div>
+      </div>
+     
     </div>
     </div>
   </SwiperSlide>
@@ -91,13 +95,16 @@ const Projects = () => {
   <SwiperSlide>
     <div className='relative overflow-hidden flex items-center justify-center group'>
     <div className='flex items-center justify-center relative overflow-hidden'><Image src={com} width={500} height={300} alt='' />
-    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
-      <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10
-      group-hover:xl:-translate-y-20 transition-all duration-300'>
-        <div className='flex items-center text-white mb-5 sm:mb-10 md:mb-12 lg:ml-6 text-[12px] font-bodyFont font-semibold md:font-medium md:text-2xl'>
-         Institutional Office Space
-        </div>
+    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-70
+    group-hover:bottom-0 translate-y-full group-hover:-translate-y-0
+     transition-all duration-300'>
+         <div className='absolute w-full h-full flex justify-center items-center'>
+        <h1 className='text-white
+          text-[15px] font-bodyFont font-semibold md:text-[17px]'>
+         Instituitional Office Space
+        </h1>
        </div>
+      </div>
     </div>
     </div>
   </SwiperSlide>
@@ -106,13 +113,16 @@ const Projects = () => {
   <SwiperSlide>
     <div className='relative overflow-hidden flex items-center justify-center group'>
     <div className='flex items-center justify-center relative overflow-hidden'><Image src={project3} width={500} height={300} alt='' />
-    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
-      <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10
-      group-hover:xl:-translate-y-20 transition-all duration-300'>
-        <div className='flex items-center text-white mb-5 sm:mb-10 md:mb-12 text-[12px] font-bodyFont font-medium md:text-2xl'>
-          Three Bedroom Unit 
-        </div>
+    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-70
+    group-hover:bottom-0 translate-y-full group-hover:-translate-y-0
+     transition-all duration-300'>
+         <div className='absolute w-full h-full flex justify-center items-center'>
+        <h1 className='text-white
+          text-[12px] font-bodyFont font-semibold md:text-[17px]'>
+         Three Bedroom Unit
+        </h1>
        </div>
+      </div>
     </div>
     </div>
   </SwiperSlide>
@@ -120,13 +130,16 @@ const Projects = () => {
   <SwiperSlide>
     <div className='relative overflow-hidden flex items-center justify-center group'>
     <div className='flex items-center justify-center relative overflow-hidden'><Image src={project8} width={500} height={300} alt='' />
-    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
-      <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10
-      group-hover:xl:-translate-y-20 transition-all duration-300'>
-        <div className='flex items-center text-white mb-5 sm:mb-10 md:mb-12 text-[12px] font-bodyFont font-medium md:text-2xl'>
-          Executive Four Bedroom Villa
-        </div>
+      <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-70
+    group-hover:bottom-0 translate-y-full group-hover:-translate-y-0
+     transition-all duration-300'>
+         <div className='absolute w-full h-full flex justify-center items-center'>
+        <h1 className='text-white
+          text-[12px] font-bodyFont font-semibold md:text-[17px]'>
+         Executive Four Bedroom Villa
+        </h1>
        </div>
+      </div>
     </div>
     </div>
   </SwiperSlide>
@@ -138,13 +151,16 @@ const Projects = () => {
   <SwiperSlide>
     <div className='relative overflow-hidden flex items-center justify-center group'>
     <div className='flex items-center justify-center relative overflow-hidden'><Image src={project5} width={500} height={300} alt='' />
-    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
-      <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10
-      group-hover:xl:-translate-y-20 transition-all duration-300'>
-        <div className='flex items-center text-white mb-5 sm:mb-10 md:mb-12 text-[12px] font-bodyFont font-medium md:text-2xl'>
-          Three Bedroom Town House 
-        </div>
+    <div className='absolute inset-0 bg-[#151816] opacity-0 group-hover:opacity-70
+    group-hover:bottom-0 translate-y-full group-hover:-translate-y-0
+     transition-all duration-300'>
+         <div className='absolute w-full h-full flex justify-center items-center'>
+        <h1 className='text-white
+          text-[12px] font-bodyFont font-semibold md:text-[17px]'>
+         Three Bedroom Town House
+        </h1>
        </div>
+      </div>
     </div>
     </div>
   </SwiperSlide>
